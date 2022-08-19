@@ -21,8 +21,11 @@ jobs:
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
+<<<<<<< HEAD
         with:
           working-directory: vite-react
+=======
+>>>>>>> 84faac0ecb3a5120d2d139909962ce3cc86575b4
 
       - name: Build project
         run: npm run build
